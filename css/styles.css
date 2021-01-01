@@ -1,0 +1,134 @@
+/* google font import*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+/* color declaration*/
+/*heading declaration*/
+.heading {
+  text-transform: uppercase;
+  font-weight: 900 !important;
+}
+
+/*sub heading declaration*/
+.sub-heading {
+  font-size: 24px;
+  color: #808080;
+}
+
+/*underline style*/
+.underline {
+  height: 5px;
+  background-color: #000;
+  width: 5%;
+}
+
+.title {
+  font-weight: 800;
+}
+
+/*space declaration*/
+.space {
+  height: 50px;
+}
+
+/*css reset*/
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: relative;
+}
+
+/*body font-family*/
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+body p {
+  font-size: 1.3rem;
+}
+
+/*navbar css*/
+.navbar {
+  background: #f8f9fa !important;
+  border-bottom: 5px solid #ffc201;
+}
+
+.navbar .nav-item {
+  padding: 10px;
+}
+
+.navbar .nav-link {
+  font-size: 24px;
+  font-weight: 600;
+  color: #000;
+}
+
+.navbar .nav-link:hover {
+  color: #fff;
+}
+
+/*hero section css*/
+.hero {
+  background: url(../image/cover.jpg);
+  height: 1000px;
+}
+
+.hero .hero-title {
+  text-align: center;
+  top: 50%;
+}
+
+.hero .hero-title h1 {
+  font-size: 5em;
+}
+
+/* about us section css*/
+.about-us-img {
+  text-align: center;
+}
+
+.about-us-img img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.about-us-right {
+  border-left: 5px solid #808080;
+  padding-left: 30px;
+  text-align: justify;
+  padding-top: 5%;
+}
+
+.about-us-right .about-us-title {
+  padding-bottom: 10px;
+}
+
+.about-us-right .about-us-content > p {
+  padding-top: 20px;
+}
+
+.about-us-right .motive {
+  font-size: 22px;
+  background-color: #d3d3d3;
+  padding: 10px 20px 10px 20px;
+  border-left: 10px solid #ffc201;
+  border-right: 10px solid #ffc201;
+}
+
+/*features section css*/
+.features-title {
+  text-align: center;
+}
+
+.features-text-content h2 {
+  padding-bottom: 20px;
+}
+
+.features-text-content p {
+  text-align: justify;
+}
+
+.features-img img {
+  width: 100%;
+}
+/*# sourceMappingURL=styles.css.map */
